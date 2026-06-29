@@ -123,7 +123,7 @@ static int32_t read_res(int fd) {
 int main(int argc, char **argv) {
 
   if (argc < 2 || argc > 4) {
-    msg("Usage: ./client <method> <arg1> <arg2(only for set method)>");
+    msg("Usage: ./client <method> <key> <value(only for set method)>");
   }
 
   int fd = socket(AF_INET, SOCK_STREAM, 0);
