@@ -22,7 +22,6 @@ If you've worked with Redis then you may already know about these methods, but i
   - if you don't know about Key-Value storage then refer [this](https://aws.amazon.com/nosql/key-value/)
   - in-memory is just fancy name for storing in RAM. We do that cuz it's super fast and good for small amount of data.
 
-  I used [FNV](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function) hash for hashing.
 
 2. `get <key>` : This method just retrieves the value stored at the key. Nothing more, nothing less.
 
@@ -45,7 +44,8 @@ In my implementation, server shows status code and what is says in the square br
 # What to excpect next
 Even if it's a working project, still a lot of core features and important structures architecure is left to do to make it more speed and performance acer.
 - [X] Hastables: I've used chaining hashtable (they use nested data structures like array of arrays, array of trees, etc.). Other type of hashtable which I didn't use are
-              Open addressing implemented by a single array and use Probing techniques for resolving conflicts.
+                 Open addressing implemented by a single array and use Probing techniques for resolving conflicts.
+                 I used [FNV](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function) hash for hashing.
 - [ ] Data Serialization
 - [ ] Balanced Binary Tree
 - [ ] Sorted Set
