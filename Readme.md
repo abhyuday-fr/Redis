@@ -50,7 +50,7 @@ Even if it's a working project, still a lot of core features and important struc
                  I used [FNV](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function) hash for hashing.
 - [X] Data Serialization
 - [X] Balanced Binary Tree
-- [ ] Sorted Set
+- [X] Sorted Set
 - [ ] Timer and Timeout
 - [ ] Cache Expirationwith TTL
 - [ ] Thread Pool
