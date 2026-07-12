@@ -1,6 +1,6 @@
 # Redis
-This is a Redis server and client implementation where (for now) the data is stored in the STL map data structure of C++ (toy implementation).
-Despite that, it works, it works fine.
+This is a Redis server and client implementation where the data is stored in the intrusive hashmap data structure to store Key-Value pairs in-memory.
+it works, it works fine.
 
 ---
 
@@ -52,7 +52,7 @@ Even if it's a working project, still a lot of core features and important struc
 - [X] Balanced Binary Tree
 - [X] Sorted Set
 - [X] Timer and Timeout
-- [ ] Cache Expirationwith TTL
+- [ ] Cache Expiration with TTL
 - [ ] Thread Pool
 
 ---
