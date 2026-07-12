@@ -44,7 +44,7 @@ In my implementation, server shows status code and what is says in the square br
 
 # What to excpect next
 Even if it's a working project, still a lot of core features and important structures architecure is left to do to make it more speed and performance acer.
-[] Hastables: I've used chaining hashtable (they use nested data structures like array of arrays, array of trees, etc.). Other type of hashtable which I didn't use are
+[X] Hastables: I've used chaining hashtable (they use nested data structures like array of arrays, array of trees, etc.). Other type of hashtable which I didn't use are
               Open addressing implemented by a single array and use Probing techniques for resolving conflicts.
 [] Data Serialization
 [] Balanced Binary Tree
