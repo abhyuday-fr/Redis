@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -Wall -Wextra -g
+CXXFLAGS := -Wall -Wextra -g -O2
 
 TARGET1 := server
 TARGET2 := client
