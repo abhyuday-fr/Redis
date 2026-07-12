@@ -51,8 +51,9 @@ static void buf_append(std::vector<uint8_t> &buf, const uint8_t *data,
   buf.insert(buf.end(), data, data + len);
 }
 
-const size_t k_max_msg = 32 << 20; // likely larger than kernel buffer
+const size_t k_max_msg = 32 << 20; // likely larger than the kernel buffer
 
+// the `query` function was simply splited into `send_req` and `read_res`.
 static int32_t send_req(int fd, const uint8_t *text, size_t len) {
   if (len > k_max_msg) {
     return -1;
