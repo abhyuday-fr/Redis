@@ -52,8 +52,8 @@ Even if it's a working project, still a lot of core features and important struc
 - [X] Balanced Binary Tree
 - [X] Sorted Set
 - [X] Timer and Timeout
-- [ ] Cache Expiration with TTL
-- [ ] Thread Pool
+- [X] Cache Expiration with TTL
+- [X] Thread Pool
 
 ---
 
