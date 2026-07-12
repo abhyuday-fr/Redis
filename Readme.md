@@ -13,6 +13,10 @@ Despite that, it works, it works fine.
 But (maybe I am little too late if you already ran the client), if you run client like that then  you will be hit by a server error but I have handled that with proper logging
 of the usage so you can get the idea from that, rest lemme show the full `./client <method> <key> <value>`
 
+## Updated usage to check for some added features
+Same 1. and 2. steps from above but in step 3.. just run python test_cmds.py inn another terminal
+test_cmds.py is just a collection of commands to test out the client. So yeah, you may need to install python in your system too.
+
 ---
 
 # set, get, del
