@@ -19,8 +19,10 @@ of the usage so you can get the idea from that, rest lemme show the full `./clie
 If you've worked with Redis then you may already know about these methods, but if you haven't, no problemo
 
 1. `set <key> <value>` : This method will store the value at specifid key in the storage (in-memory).
-  - if you don't know about Key-Value stotage then refer [this](https://aws.amazon.com/nosql/key-value/)
+  - if you don't know about Key-Value storage then refer [this](https://aws.amazon.com/nosql/key-value/)
   - in-memory is just fancy name for storing in RAM. We do that cuz it's super fast and good for small amount of data.
+
+  I used [FNV](https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function) hash for hashing.
 
 2. `get <key>` : This method just retrieves the value stored at the key. Nothing more, nothing less.
 
@@ -37,6 +39,19 @@ POSIX/UNIX APIs, efforts of reading and finding references from the man pages an
 ![example image](example.png)
 
 In my implementation, server shows status code and what is says in the square brackets '[]'
+
+---
+
+# What to excpect next
+Even if it's a working project, still a lot of core features and important structures architecure is left to do to make it more speed and performance acer.
+[] Hastables: I've used chaining hashtable (they use nested data structures like array of arrays, array of trees, etc.). Other type of hashtable which I didn't use are
+              Open addressing implemented by a single array and use Probing techniques for resolving conflicts.
+[] Data Serialization
+[] Balanced Binary Tree
+[] Sorted Set
+[] Timer and Timeout
+[] Cache Expirationwith TTL
+[] Thread Pool
 
 ---
 
