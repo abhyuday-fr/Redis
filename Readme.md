@@ -51,7 +51,7 @@ Even if it's a working project, still a lot of core features and important struc
 - [X] Data Serialization
 - [X] Balanced Binary Tree
 - [X] Sorted Set
-- [ ] Timer and Timeout
+- [X] Timer and Timeout
 - [ ] Cache Expirationwith TTL
 - [ ] Thread Pool
 
