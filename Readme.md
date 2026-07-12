@@ -43,7 +43,7 @@ POSIX/UNIX APIs, efforts of reading and finding references from the man pages an
 
 ---
 
-# What to excpect next
+# What to expect next
 Even if it's a working project, still a lot of core features and important structures architecure is left to do to make it more speed and performance acer.
 - [X] Hastables: I've used chaining hashtable (they use nested data structures like array of arrays, array of trees, etc.). Other type of hashtable which I didn't use are
                  Open addressing implemented by a single array and use Probing techniques for resolving conflicts.
@@ -54,6 +54,8 @@ Even if it's a working project, still a lot of core features and important struc
 - [X] Timer and Timeout
 - [X] Cache Expiration with TTL
 - [X] Thread Pool
+
+It's all completed now :>
 
 ---
 
